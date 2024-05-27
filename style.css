@@ -1,0 +1,518 @@
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(./fonts/Mark\ Simonson\ \ Proxima\ Nova\ Regular.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(17,20,24,255) !important;
+    overflow-x: hidden;
+}
+.navigation{
+    padding: 5px 0px 0px 25px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background:url(./images/tinder_thailand_background_900x506.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.main::before{
+    background: linear-gradient(rgba(0, 0, 0, 0.971)4%,rgba(0, 0, 0, 0.538)25%);
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: #ff4458;
+    text-decoration: underline;
+}
+.navigation-item li{
+    padding: 0px 10px;
+
+}
+.cont h1{
+    font-family: Proxima Nova Regular;
+}
+
+ul li{
+    list-style: none;
+}
+.drop1,.drop2,.drop3{
+    display: none;
+}
+
+.tinder_brandimg{
+    width: 155px;
+    height: 40px;
+}
+#drop1:hover{
+    text-decoration: underline;
+    color: #ff4458;
+}
+#drop1:hover .drop1,#drop3:hover .drop3{
+    display: block;
+    position: absolute;
+}
+.log ul li{
+    padding: 0px 10px;
+}
+.log ul li button{
+    border-radius: 50px;
+    padding: 3px 30px 6px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.lang{
+    padding: 35px 20px 40px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+.lang:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* section  */
+.cont{
+    text-align: center;
+    width: 100%;
+    margin-top: 12%;
+    margin-right: 20%;
+}
+.cont h1{
+
+    font-size: 7.5vw;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.cont .banner_button{
+    background: linear-gradient(to right, #ff4457, rgb(210, 109, 7));
+    padding: 10px 30px 12px 30px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.cont button:hover{
+    background: linear-gradient(to right,rgb(240, 108, 121), rgb(195, 125, 54));
+}
+.cont .dis{
+    font-size: 10px;
+    text-align: right;
+    font-weight: 500;
+    margin-top: 15%;
+    margin-right: 1%;
+    letter-spacing: 1px;
+    /* margin-left: 80%; */
+    padding-bottom: 20px;
+}
+.feedback{
+    width: 500px;
+    /* height: px; */
+    position: relative;
+    margin: 10px;
+}
+.feed_quote{
+    position: absolute;
+    width: 60px;
+    top: 4%;
+    left: 83%;
+}
+#feedback_block{
+    margin: 50px 70px;
+    /* background-color: rgba(17,20,24,255); */
+}
+.feed{
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+.card{
+    background-color: rgba(17,20,24,255) !important;
+    border: 0.5px solid rgb(74, 73, 73) !important;
+    box-shadow: 0px 0px 2px white;
+    padding: 20px 20px;
+}
+.feedback .card-title{
+    /* padding: 20px 0px 0px 20px; */
+    margin: 0;
+    position: relative;
+    /* background-color: rgba(17,20,24,255); */
+    color: white;
+    font-weight: 700;
+}
+.feedback{
+    /* border-radius: 2px; */
+    background-color: rgba(17,20,24,255) ;
+}
+.feedback .card-body{
+    padding-top: 30px;
+    /* padding-bottom: 100px; */
+    /* background-color:rgba(17,20,24,255); */
+    color: rgb(155, 154, 154);
+    height: 230px;
+}
+.card hr{
+    width: 70%;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    border: rgb(133, 133, 133) solid 1px;
+}
+.footer_content_one{
+    display: flex;
+    color: white;
+    margin: 0px 50px;
+    font-size: 17px;
+    flex-wrap: wrap;
+}
+.footer_content_one h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer_content_one ul li{
+    padding: 2px;
+    font-family: Proxima Nova Regular;
+    color: #f0f2f4;
+    font-size: 17px;
+}
+h2:hover{
+    color: white;
+    cursor: default;
+}
+h6:hover{
+    color: white;
+    cursor: default;
+}
+.footer_content_one ul li a:hover,.social_conten i a:hover{
+    color: #ff4457;
+    text-decoration: none;
+}
+.Career_content{
+    margin-left: 20px;
+}
+.social_conten{
+    margin-left: 170px;
+    list-style: none;
+}
+.soacial_icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social_conten i{
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.faq_content{
+    margin-left: 30px;
+}
+.faq_content li:hover{
+    color: #ff4457;
+
+}
+footer hr{
+    color:white ;
+    width: 88%;
+    margin-left: 85px;
+    margin-top: 0;
+}
+.footer_content_two h5{
+    color: #f0f2f4;
+}
+.footer_content_two{
+    display: flex;
+    gap: 6px;
+    color: #b9bfc8;
+    margin: 0 85px;
+    align-items: center;
+}
+.apple_logo,.play_logo{
+    width: 200px;
+}
+.footer_content_three{
+    color: gray;
+    margin: 10px 85px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.footer_content_four{
+    margin: 20px 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cont_four_left a,.cont_four_left li{
+    text-decoration: none;
+    color: #b9bfc8;
+    padding: 3px;
+    list-style: none;
+    font-size: 14px;
+    font-family: Proxima Nova Regular;
+    font-weight: 500;
+}
+.cont_four_left a:hover{
+    color: #ff4457;
+}
+.cont_four_right{
+    color:#b9bfc8;
+    font-size: 14px;
+    font-family: Proxima Nova Regular;
+    font-weight: 500;
+}
+#foot_four_link::before{
+    content: '/ ';
+    /* position: absolute; */
+}
+.resnavigation{
+    display: none;
+}
+#banner_login{
+    display: none;
+}
+#carouselExample{
+    display: none;
+}
+.carbuton{
+    opacity: 0;
+}
+.cont .loginbutton .play_logo{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .navigation{
+        display: none;
+    }
+    .tinder_brandimg{
+        height: 30px;
+        width: 120px;
+    }
+    .main{
+        height: 650px;
+    }
+    .cont{
+        margin-top:25% ;   
+    }
+    .loginbutton{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25%;
+        padding: 45px;
+        gap: 20px;
+    }
+    .loginbutton .dis{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    .cont .banner_button{
+        padding: 10px 70px 12px 70px;
+    }
+
+    #banner_login{
+        display: block;
+        padding: 10px 70px 12px 70px;
+        border-radius: 50px;
+        border: 3px solid white;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .cont .loginbutton .play_logo{
+        display: block;
+        margin-left: 20%;
+    }
+    .resnavigation{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 4%;
+    }
+    .feed_section{
+        display: none;
+    }
+    #carouselExample{
+        display: block;
+        width: 100%;
+    }
+    .card{
+        width: 380px;
+    }
+    footer hr{
+        margin-left: 15px;
+        width: 95%;
+        padding: 0;
+    }
+    .footer_content_one{
+        margin: 0;
+        padding: 0;
+    }
+    .footer_content_one ul{
+        padding: 5px;
+    }
+    .footer_content_one ul li a{
+        font-size: 14px;
+    }
+    .Legal_content{
+        margin: 0;
+        width: 30%;
+        /* font-size: 5px; */
+    }
+    .Career_content{
+        margin: 0;
+        width: 30%;
+    }
+    .social_conten{
+        margin: 0;
+        width: 30%;
+    }
+    .faq_content{
+        margin: 0;
+    }
+    .footer_content_two{   
+        margin: 10px;
+        padding: 0;
+    }
+    .apple_logo{
+        display: none;
+    }
+    .footer_content_two .play_logo{
+        width: 30%;
+        margin-left: 10%;
+    }
+    .footer_content_three{
+        margin: 20px 0px 0px 10px;
+        padding: 0;
+    }
+    .footer_content_four{
+        margin: 15px 0px 0px 15px;
+        /* padding: 15px 0px 0px 15px; */
+        justify-content: center;
+    }
+    .cont_four_left{
+        margin: 2% 0;
+    }
+    .cont_four_left li a{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .cont_four_right{
+        font-size: 11px;
+        margin: 2% 0 10% 0;
+        font-weight: 600;
+    }
+    #offnavi{
+        background-color: rgba(17,20,24,255);
+        width: 100%;
+    }
+    ul{
+        padding: 0;
+    }
+    .dropdown-toggle{
+        color: #f0f2f4 !important;
+
+    }
+    .offcanvas-title{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .offcanvas-title i{
+        color: #b9bfc8;
+        font-size: 30px;
+        font-weight: 700;
+        opacity: 0.7;
+
+    }
+    .offnavigation{
+        padding: 0;
+        margin-top: -40px;
+    }
+    .offnavigation li a{
+        width: 100%;
+        background-color: rgba(17,20,24,255);
+        color: #f0f2f4;
+    }
+    .dropdown-menu{
+        position: relative !important;
+        padding: 0 !important;
+        border: none !important;
+        background-color: rgba(17,20,24,255) !important;
+        /* height: 140px !important; */
+        top: -30px !important;
+    }
+    .dropdown-menu li{
+        margin: 0% !important;
+        padding: 2px !important;
+    }
+    .dropdown-item{
+        position: relative;
+        /* top: -35px; */
+        background-color: rgba(17,20,24,255);
+        color: #b9bfc8;
+        font-size: 15px !important;
+        font-weight: 700 !important;       
+    }
+    .offnavigation li{
+        margin-top:5%;
+        margin-left: -1%;
+        font-size: 15px;
+        font-weight: 700
+    }
+    #offitem{
+        width: 100%;
+        background-color: black;
+        padding: 10px 0px 10px 10px;
+    }
+    #offitems{
+        background-color: black;
+        width: 101%;
+        padding: 10px 0px 10px 10px;
+    }
+    #offitems a{
+        background-color: black;
+    }
+    .offlog{
+        /* display: flex; */
+        text-align: center;
+        margin-top: 35%;
+    }
+    .offlogin{
+        padding: 10px 100px 12px 100px;
+        width: 100%;
+        border: none;
+        border-radius: 50px;
+        background-color: #ff4457;
+        color: #f0f2f4;
+        font-weight: 700;
+    }
+    .offlog .lang{
+        margin-top: -10px;
+    }
+    .product{
+        margin-right: 75%;
+    } 
+    .safe{
+        margin-right: 80%;
+    }
+}
